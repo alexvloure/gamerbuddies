@@ -1,0 +1,154 @@
+body{
+    background-color: #272727;
+    color: #afafaf;
+}
+
+h2+div{
+    padding-top: 2rem;
+}
+
+hr{
+    width: 90%;
+    border-color: #696969;
+}
+
+@media (min-width: 768px){
+    .first-container-tile, .second-container-tile{
+        max-width: 690px; 
+    }
+}
+
+@media (min-width: 992px){
+    .first-container-tile, .second-container-tile{
+        max-width: 855px; 
+    }
+}
+
+@media (min-width: 1200px){
+    .first-container-tile, .second-container-tile{
+        max-width: 1035px; 
+    }
+}
+
+.navbar{
+    background-color: #272727 !important;
+    color: #fff;
+}
+
+.navbar.navbar-transparent{
+    color: #fff;
+}
+
+.navbar-title-text{
+    font-family: "Black Ops One";
+    font-size: 2rem !important;
+    cursor: pointer;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon{
+    background-color: #ffffff !important;
+}
+
+.navbar-collapse .navbar-nav .nav-item:after{
+    background-color: #afafaf !important;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+
+.navbar-collapse::after{
+    background-color: #272727;
+} 
+
+.title,
+.title a,
+.card-title,
+.card-title a,
+.info-title,
+.info-title a,
+.footer-brand,
+.footer-brand a,
+.footer-big h5,
+.footer-big h5 a,
+.footer-big h4,
+.footer-big h4 a,
+.media .media-heading,
+.media .media-heading a{
+    color: #afafaf;
+}
+
+.title, .card-title, .info-title, .footer-brand, .footer-big h5, .footer-big h4, .media .media-heading{
+    font-family: "Jura", "Times New Roman", serif;
+} 
+
+.brand h1{
+    font-family: "Jura";
+}
+
+.fa-gamepad{
+    color: rgb(255, 255, 255) !important;
+}
+
+.main{
+    background-color: #313131 !important;
+}
+
+.col-md-6 img{
+    box-shadow: 7px 7px 20px -4px rgba(0,0,0,0.7);
+}
+
+.col-md-6 img:hover{
+    transform: scale(1.02);
+}
+
+.second-section-tile, .third-section-tile, .fourth-section-tile, .fifth-section-tile{
+    padding-top: 30px;
+}
+
+.carousel-indicators {
+    height: 0px;
+}
+
+.carousel-indicators li{
+    height: 2px !important;
+    border-radius: 0px !important;
+    width: 3% !important;
+    background: #afafaf !important;
+    border: 0px !important;
+}
+
+.carousel .carousel-indicators .active{
+    background: #fff !important;
+}
+
+.low-opacity{
+    opacity: 80%;
+}
+
+.col-md-12 h2{
+    margin-bottom: 0px;
+}
+
+.col-md-12 h5{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.col-md-12 h4{
+    margin-top: 0px;
+}
+
+.keyboard{
+    opacity: 80%;
+}
+
+.earth{
+    opacity: 60%;
+}
+
+.btn.btn-secondary{
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
